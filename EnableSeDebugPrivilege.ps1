@@ -63,6 +63,8 @@ function Enable-SeDebugPrivilege {
                 }
 
                 return Marshal.GetLastWin32Error() == 0; 
+
+            }
         }
 '@
 
